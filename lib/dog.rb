@@ -9,8 +9,8 @@ class Dog
     @@name << self
   end
 
-  def all
-
+  def self.all
+    @@name
   end
 
 end
